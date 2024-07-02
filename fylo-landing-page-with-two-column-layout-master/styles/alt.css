@@ -119,8 +119,8 @@ img.testimonial-avatar {
   text-align: center;
   padding: 20px 25px;
   color: white;
-  margin-top:150px;
-  width:100%;
+  margin-top: 150px;
+  width: 100%;
 }
 .sign-up-header {
   font-family: Raleway;
@@ -205,7 +205,7 @@ img.testimonial-avatar {
 
 @media screen and (min-width: 30rem) {
   .marketing {
-   margin-left:0px;
+    margin-left: 0px;
     display: grid;
 
     grid-template-areas:
@@ -215,38 +215,40 @@ img.testimonial-avatar {
     grid-template-rows: 350px 100px;
     padding-top: 150px;
   }
+
   .info {
     grid-area: info;
-    margin-left: 10px;
+    border: 2px solid blueviolet;
   }
   .info-headline {
-    font-size: 32px;
-    margin-left: 0px;
+    font-size: 2rem;
+    margin: 0px;
+    padding: 0px;
+    padding-right: 15%;
   }
   .info-block {
     width: 45%;
-    margin-left: 245px;
+    margin-left: 225px;
     font-weight: 600;
     color: hsl(243, 87%, 12%);
   }
   .cta-block {
-    margin-right: 100px;
+    margin-right: 50%;
   }
   .testimonial {
     grid-area: testimonial;
     width: 28%;
     height: 100%;
-    margin-left: 380px;
+    margin-left: 200px;
     padding: 40px 40px;
   }
   .testimonial-info {
-    margin-top:70px;
-   
+    margin-top: 70px;
   }
   .marketing-info-pic {
     grid-area: pic;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0;
+    padding: 0;
   }
   .testimonials {
     order: 1;
