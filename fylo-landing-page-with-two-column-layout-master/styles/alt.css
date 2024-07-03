@@ -214,36 +214,44 @@ img.testimonial-avatar {
 
     grid-template-rows: 350px 100px;
     padding-top: 150px;
+    justify-content: flex-start;
   }
 
   .info {
     grid-area: info;
-    border: 2px solid blueviolet;
   }
   .info-headline {
     font-size: 2rem;
     margin: 0px;
     padding: 0px;
-    padding-right: 15%;
+    margin-right: 16em;
   }
   .info-block {
     width: 45%;
-    margin-left: 225px;
+    margin-left: 9em;
     font-weight: 600;
     color: hsl(243, 87%, 12%);
   }
   .cta-block {
-    margin-right: 50%;
+    margin-right: 68%;
+  }
+  .cta {
   }
   .testimonial {
     grid-area: testimonial;
-    width: 28%;
+    width: 30%;
     height: 100%;
-    margin-left: 200px;
-    padding: 40px 40px;
+    margin-left: 9em;
+    padding: 60px 60px;
   }
   .testimonial-info {
     margin-top: 70px;
+  }
+  img.testimonial-avatar {
+    width: 20%;
+  }
+  .testimonial-author {
+    justify-content: center;
   }
   .marketing-info-pic {
     grid-area: pic;
