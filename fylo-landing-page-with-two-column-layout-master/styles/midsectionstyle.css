@@ -130,12 +130,15 @@ img.testimonial-avatar {
 .sign-up-subtitle {
   font-family: "Open_Sans";
   line-height: 1.5;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .sign-up-input {
   margin: 0px;
   padding: 0px;
   width: 90%;
   height: 25%;
+  border-radius: 5px;
 }
 .submit-btn {
   font-family: "Open_Sans";
@@ -144,10 +147,12 @@ img.testimonial-avatar {
   height: 25%;
   background-color: hsl(224, 93%, 58%);
   color: white;
-  padding: 30px 25px;
+  padding: 20px 25px;
   padding-top: 15px;
   border: none;
   text-align: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 .submit-btn:hover {
   cursor: pointer;
@@ -180,8 +185,6 @@ img.testimonial-avatar {
 
 .footer-contact img {
   margin-right: 1em;
-}
-.footer-nav {
 }
 
 .footer-nav-links {
@@ -231,34 +234,37 @@ img.testimonial-avatar {
 
     grid-template-rows: 350px 100px;
     padding-top: 150px;
-    justify-content: flex-start;
+    justify-items: start;
   }
 
   .info {
     grid-area: info;
+    position: relative;
   }
   .info-headline {
     font-size: 2rem;
     margin: 0px;
     padding: 0px;
-    margin-right: 16em;
+    position: absolute;
+    left: 5%;
   }
   .info-block {
-    width: 45%;
-    margin-left: 9em;
+    width: 60%;
+
     font-weight: 600;
     color: hsl(243, 87%, 12%);
+    margin-top: 5%;
+    margin-left: 5%;
   }
   .cta-block {
     margin-right: 68%;
   }
-  .cta {
-  }
+
   .testimonial {
     grid-area: testimonial;
     width: 30%;
     height: 100%;
-    margin-left: 9em;
+    margin-left: 2em;
     padding: 60px 60px;
   }
   .testimonial-info {
@@ -301,10 +307,12 @@ img.testimonial-avatar {
     align-items: center;
     gap: 2em;
     width: 100%;
+    height: 25vh;
   }
 
   .sign-up-info {
     flex: 1;
+    padding-left: 3em;
   }
   .sign-up-form {
     flex: 1;
@@ -313,9 +321,11 @@ img.testimonial-avatar {
     padding: 0.5em;
     color: hsl(0, 0%, 75%);
     font-family: "Open_Sans";
+    border-radius: 5px;
   }
   .submit-btn {
     width: 50%;
     padding: 1em;
+    border-radius: 5px;
   }
 }
